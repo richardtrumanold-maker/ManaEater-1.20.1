@@ -37,36 +37,23 @@ public class ManaEaterMod {
     }
 
     private static void registerPayloads(final RegisterPayloadHandlersEvent event) {
-        PayloadRegistrar registrar = event.registrar("1");
+    PayloadRegistrar registrar = event.registrar("1");
 
-        registrar.playToClient(
-                OpenRaceSelectPayload.TYPE,
-                OpenRaceSelectPayload.STREAM_CODEC,
-                OpenRaceSelectPayload::handle
-        );
+    registrar.playToClient(
+            OpenCardsPayload.TYPE,
+            OpenCardsPayload.STREAM_CODEC,
+            OpenCardsPayload::handle
+    );
 
-        registrar.playToServer(
-                ChoosePrimaryPayload.TYPE,
-                ChoosePrimaryPayload.STREAM_CODEC,
-                ChoosePrimaryPayload::handle
-        );
+    registrar.playToServer(
+            PickCardPayload.TYPE,
+            PickCardPayload.STREAM_CODEC,
+            PickCardPayload::handle
+    );
 
-        registrar.playToServer(
-                ChooseSecondPayload.TYPE,
-                ChooseSecondPayload.STREAM_CODEC,
-                ChooseSecondPayload::handle
-        );
-
-        registrar.playToClient(
-                OpenSecondRaceSelectPayload.TYPE,
-                OpenSecondRaceSelectPayload.STREAM_CODEC,
-                OpenSecondRaceSelectPayload::handle
-        );
-
-        registrar.playToClient(
-                UpdateSelectionPayload.TYPE,
-                UpdateSelectionPayload.STREAM_CODEC,
-                UpdateSelectionPayload::handle
-        );
-    }
+    registrar.playToClient(
+            UpdateSelectionPayload.TYPE,
+            UpdateSelectionPayload.STREAM_CODEC,
+            UpdateSelectionPayload::handle
+    );
 }
