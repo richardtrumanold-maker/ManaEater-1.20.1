@@ -1,0 +1,30 @@
+{
+  "base.mana_eater.human": "Человек",
+  "base.mana_eater.unclean": "Нечисть",
+  "base.mana_eater.giant": "Гигант",
+  "base.mana_eater.dwarf": "Дворф",
+
+  "unclean.mana_eater.vampire": "Вампир",
+  "unclean.mana_eater.werewolf": "Оборотень",
+
+  "class.mana_eater.human": "Человек",
+  "class.mana_eater.giant": "Гигант",
+  "class.mana_eater.dwarf": "Дворф",
+  "class.mana_eater.vampire": "Вампир",
+  "class.mana_eater.werewolf": "Оборотень",
+
+  "class.mana_eater.dampir": "Дампир",
+  "class.mana_eater.half_giant": "Полугигант",
+  "class.mana_eater.half_dwarf": "Полудворф",
+
+  "class.mana_eater.vampire_giant": "Вампир-гигант",
+  "class.mana_eater.werewolf_giant": "Оборотень-гигант",
+  "class.mana_eater.vampire_dwarf": "Вампир-дворф",
+  "class.mana_eater.werewolf_dwarf": "Оборотень-дворф",
+
+  "manaeater.screen.base_title": "Выбор расы",
+  "manaeater.screen.unclean_title": "Выбор класса Нечисти",
+  "manaeater.screen.second_title": "Вам повезло! Выберите вторую расу",
+
+  "manaeater.message.forbidden_combo": "Эта комбинация рас невозможна."
+}
