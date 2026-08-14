@@ -1,0 +1,30 @@
+{
+  "base.mana_eater.human": "Human",
+  "base.mana_eater.unclean": "Unclean",
+  "base.mana_eater.giant": "Giant",
+  "base.mana_eater.dwarf": "Dwarf",
+
+  "unclean.mana_eater.vampire": "Vampire",
+  "unclean.mana_eater.werewolf": "Werewolf",
+
+  "class.mana_eater.human": "Human",
+  "class.mana_eater.giant": "Giant",
+  "class.mana_eater.dwarf": "Dwarf",
+  "class.mana_eater.vampire": "Vampire",
+  "class.mana_eater.werewolf": "Werewolf",
+
+  "class.mana_eater.dampir": "Dhampir",
+  "class.mana_eater.half_giant": "Half-Giant",
+  "class.mana_eater.half_dwarf": "Half-Dwarf",
+
+  "class.mana_eater.vampire_giant": "Vampire Giant",
+  "class.mana_eater.werewolf_giant": "Werewolf Giant",
+  "class.mana_eater.vampire_dwarf": "Vampire Dwarf",
+  "class.mana_eater.werewolf_dwarf": "Werewolf Dwarf",
+
+  "manaeater.screen.base_title": "Race Selection",
+  "manaeater.screen.unclean_title": "Unclean Class Selection",
+  "manaeater.screen.second_title": "You are lucky! Choose a second race",
+
+  "manaeater.message.forbidden_combo": "This race combination is forbidden."
+}
